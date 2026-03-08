@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="space-y-6">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded flex items-center justify-center text-white font-black text-xl ">
-              <img src="src/assets/images/logo.png" alt="" />
+              <img src="https://i.ibb.co/xq1r0k76/logo.png" alt="" />
             </div>
             <h4 className="text-xl font-black text-white tracking-tighter uppercase">
               GEC <span className="text-blue-500">Jehanabad</span>

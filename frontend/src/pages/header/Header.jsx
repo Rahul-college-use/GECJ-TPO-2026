@@ -13,7 +13,7 @@ const Header = () => {
             */}
             <div className="h-16 w-16 bg-transparent rounded-lg flex items-center justify-center  overflow-hidden">
               <img 
-                src='src/assets/images/logo.png'
+                src='https://i.ibb.co/xq1r0k76/logo.png'
                 alt="GEC Jehanabad Logo" 
                 className="h-full w-full object-contain p-1" 
                 /* object-contain ensures the logo isn't stretched */

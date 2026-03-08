@@ -62,7 +62,7 @@ const WelcomePage = () => {
             <div className="w-full h-[400px] bg-white rounded-3xl shadow-2xl border border-slate-100 overflow-hidden flex items-center justify-center">
                {/* Replace with actual college building image */}
                <img 
-                src="src/assets/images/Colleges_images/campus.png" 
+                src="https://i.ibb.co/fGXH4WqH/campus.png" 
                 alt="GECJ Campus" 
                 className="w-full h-full object-cover"
                />

@@ -22,7 +22,7 @@ const Navbar = () => {
           {/* 1. Brand Logo & Name */}
           <a href="#home" className="flex items-center group cursor-pointer">
             <div className="w-10 h-10 rounded flex items-center justify-center mr-3">
-              <img src="src/assets/images/logo.png" alt="GECJ Logo" className="object-contain" />
+              <img src="https://i.ibb.co/xq1r0k76/logo.png" alt="GECJ Logo" className="object-contain" />
             </div>
             <span className="text-xl font-black text-slate-800 tracking-tighter group-hover:text-blue-900 transition-colors">
               GEC<span className="text-blue-700">JEHANABAD</span>
