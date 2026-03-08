@@ -15,8 +15,8 @@ const AboutTPO = () => {
               <div className="aspect-[3/4] rounded-3xl bg-slate-200 overflow-hidden border-4 border-white shadow-2xl flex items-center justify-center">
                 <img 
                   /* Use local path when ready: src="./assets/images/tpo-officer.jpg" */
-                  src="https://via.placeholder.com/400x500?text=TPO+Officer" 
-                  alt="Prof. (Dr.) Prem Chandra Gupta - TPO GEC Jehanabad" 
+                  src="https://i.ibb.co/2sZz8cM/tpo.jpg" 
+                  alt="Prof.Prof. Sudhir Kumar & Alka Ranjan - TPO GEC Jehanabad" 
                   className="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-105"
                   loading="lazy" 
                 />
@@ -26,14 +26,14 @@ const AboutTPO = () => {
               {/* Standard position on mobile, offset on desktop */}
               <div className="absolute bottom-4 right-4 lg:-bottom-6 lg:-right-6 bg-orange-500 text-white p-5 lg:p-6 rounded-2xl shadow-xl border-4 border-white z-10">
                 <p className="text-[10px] lg:text-xs font-bold uppercase tracking-widest opacity-90">Industry</p>
-                <p className="text-xl lg:text-2xl font-black whitespace-nowrap">10+ Years</p>
+                <p className="text-xl lg:text-2xl font-black whitespace-nowrap">5+ Years</p>
               </div>
             </div>
             
             {/* Officer Credentials */}
             <div className="mt-10 text-center lg:text-left">
               <h3 className="text-2xl lg:text-3xl font-black text-slate-800 leading-tight">
-                Prof. (Dr.) Prem Chandra Gupta
+                Prof. Sudhir Kumar & Alka Ranjan
               </h3>
               <p className="text-blue-700 font-bold uppercase text-xs lg:text-sm tracking-[0.2em] mt-2 mb-6">
                 Training & Placement Officer
