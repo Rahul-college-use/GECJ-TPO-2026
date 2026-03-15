@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-
+import React, { useState, useEffect, } from 'react';
+import { useNavigate } from 'react-router-dom';
 const WelcomePage = () => {
+  const navigate = useNavigate()
   const [activeSlide, setActiveSlide] = useState(0);
-
   const achievements = [
     {
       title: "100% Placement in CSE",
@@ -48,7 +48,9 @@ const WelcomePage = () => {
               innovation through rigorous academic and research programs.
             </p>
             <div className="flex gap-4">
-              <button className="bg-blue-900 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-800 transition shadow-lg shadow-blue-900/20">
+              <button onClick={()=>{
+                navigate('/aboutpage')
+              }} className="bg-blue-900 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-800 transition shadow-lg shadow-blue-900/20">
                 Read More
               </button>
               <button className="border-2 border-slate-200 text-slate-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-100 transition">

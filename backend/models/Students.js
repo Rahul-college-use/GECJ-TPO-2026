@@ -6,10 +6,12 @@ const StudentSchema = new mongoose.Schema({
   dept: { type: String, required: true }, 
   phone: { type: String, required: true },
   email: { type: String, required: true, unique: true },
+  reg_no: { type: String, required: true, unique: true },
   skills: [String],
+  linkedIn: [String],
+  session: [String],
   photo: { type: String },
   linkedIn: { type: String },
-  batch: { type: Number, default: 2026 }
 });
 
 module.exports = mongoose.model('Student', StudentSchema);

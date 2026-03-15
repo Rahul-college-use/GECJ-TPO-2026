@@ -7,13 +7,14 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),tailwindcss()],
   VIT_BASE:'/Rahul-college-use/GECJ-TPO-2026.git',
-  // server: {
-  //   proxy: {
-  //     '/api': 'http://localhost:3000',
-  //     '/uploads': {
-  //       target: 'http://localhost:3000',
-  //       changeOrigin: true,
-  //     }
-  //   }
-  // }
+  server: {
+    proxy: {
+      '/api': 'http://localhost:3000',
+      '/uploads': {
+        target: 'http://localhost:3000',
+        changeOrigin: true,
+      },
+      '/get':"http://localhost:3000"
+    }
+  }
 })
